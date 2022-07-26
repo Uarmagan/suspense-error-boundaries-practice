@@ -19,8 +19,8 @@ export function makeServer({ environment = 'test' } = {}) {
           // return new Response(500);
 
           return {
-            stat: '$8,027',
-            change: '$678',
+            stat: '$800,027',
+            change: '$6780',
             changeType: 'increase',
           };
         },
