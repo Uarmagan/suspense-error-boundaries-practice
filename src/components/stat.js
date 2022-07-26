@@ -4,7 +4,7 @@ import Error from './error';
 import Spinner from './spinner';
 
 export default function Stat({ Icon, label, endpoint }) {
-  let { data, error } = useSWR(endpoint);
+  let { data, error } = useSWR(endpoint, { sus });
 
   return data ? (
     <div className='flex items-center w-full'>
